@@ -20,7 +20,7 @@ export const Footer = () => {
               <a href="#"><img src={navIcon2} alt="Icon" /></a>
               <a href="#"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Made by PHAN CONG Laurent with webcoded tutorial.</p>
+            <p>Made by PHAN CONG Lauren with webcoded tutorial.</p>
           </Col>
         </Row>
       </Container>
