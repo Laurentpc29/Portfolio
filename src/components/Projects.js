@@ -12,11 +12,11 @@ export const Projects = () => {
   const projects = [
     {
       title: "Worldwide Weather Watcher",
-      description: "Weather station with ArduinoUno card.",
+      description: "A weather station with ArduinoUno card.",
       imgUrl: projImg1,
     },
     {
-      title: "Command Software",
+      title: "Ordering Software",
       description: "An 'Amazon' software type with many options.",
       imgUrl: projImg2,
     },
@@ -51,7 +51,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>These are my projects for the moment.</p>
+                <p>These are my projects for the moment. You can access to on my Github.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
